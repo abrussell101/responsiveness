@@ -1,0 +1,77 @@
+header,
+nav,
+section,
+article,
+footer {
+    background-color: green;
+    height: 4em;
+    text-align: center;
+    font-style: normal;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+
+}
+
+nav {
+   
+    width: 31.33%;
+    float: left;
+
+}
+
+section { 
+    float: left;
+    width: 64.66%;
+
+}
+
+article { 
+    width: 31.5%;
+    float: left;
+}
+
+footer {
+    width: 97%;
+    float: left;
+    clear: both;
+}
+
+header {
+    width: 97%;
+} 
+
+
+@media all and (min-width: 460px) and (max-width: 1050px) 
+{
+    header, nav, section, article, footer {
+        background-color: blue;
+        float: none;
+        width: auto;
+
+    }
+
+
+}
+
+@media all and (max-width: 459px)
+{
+    header, nav, section, article, footer {
+        background-color: rgb(255, 0, 0);
+        float: none;
+        width: auto;
+
+    }
+
+}
+
+@media all and (min-width: 1300px) 
+{
+    header, nav, section, article, footer {
+        background-color: rgb(255, 102, 0);
+       
+
+    }
+
+
+}
